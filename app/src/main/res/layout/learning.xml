@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ls_background_light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_Modules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins"
+        android:text="Modules"
+        android:textColor="#272626"
+        android:textFontWeight="800"
+        android:textSize="29sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_47"
+        android:scaleType="center"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_welcomeUser3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins"
+        android:text="Learn Sketching"
+        android:textColor="#FBFBFB"
+        android:textFontWeight="800"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/goback3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_welcomeUser4"
+        android:layout_width="738dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins"
+        android:text="Explore the various modules and get a kick-start  in your sketching process."
+        android:textColor="#FBFBFB"
+        android:textFontWeight="800"
+        android:textSize="29sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_welcomeUser3" />
+
+    <ImageView
+        android:id="@+id/goback3"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_Modules">
+
+            <Button
+                android:id="@+id/cake"
+                android:layout_width="1165dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#FF4133"
+                android:text="Module 1 : Sketch a Cake"
+                android:textAlignment="textStart"
+                app:cornerRadius="20dip"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_welcomeUser5" />
+
+            <Button
+                android:id="@+id/cone"
+                android:layout_width="1165dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#2F2E41"
+                android:text="Module 2 : Sketch a Cone"
+                android:textAlignment="textStart"
+                app:cornerRadius="20dip"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+            <Button
+                android:id="@+id/apple"
+                android:layout_width="1165dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#3F3F3F"
+                android:text="Module 3 : Sketch an apple"
+                android:textAlignment="textStart"
+                app:cornerRadius="20dip"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cone" />
+
+            <Button
+                android:id="@+id/lines"
+                android:layout_width="1165dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#0E8521"
+                android:text="Module 4 : Sketch Lines"
+                android:textAlignment="textStart"
+                app:cornerRadius="20dip"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/apple" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

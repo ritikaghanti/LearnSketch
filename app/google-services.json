@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587546775536",
+    "project_id": "learnsketch-afd43",
+    "storage_bucket": "learnsketch-afd43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587546775536:android:cdbefa3365ec2db77d5735",
+        "android_client_info": {
+          "package_name": "com.example.learnsketch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587546775536-loe4fetp36ai5a8m9pjn72aft1s20bdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm1RttXCPP48CKvtLGx1ZD5_6pNQdv2fM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587546775536-loe4fetp36ai5a8m9pjn72aft1s20bdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

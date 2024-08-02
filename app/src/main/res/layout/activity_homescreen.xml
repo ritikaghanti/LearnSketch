@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/headerlinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_welcomeUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="800"
+            android:text="Welcome, User "
+            android:textColor="@color/ls_teal_dark"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/btn_Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="80dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_icon_logout"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="600"
+            android:paddingLeft="15dp"
+            android:text="LOGOUT"
+            android:textSize="7pt"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_getstarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"
+        android:text="Get Started"
+        android:textColor="@color/ls_textdark"
+        android:textSize="12pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerlinearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_getStarted"
+        android:layout_width="1278dp"
+        android:layout_height="300dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_getstarted">
+
+        <ImageButton
+            android:id="@+id/learnsketchBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            app:cornerRadius="40dp"
+            app:srcCompat="@drawable/btn2"
+            android:elevation="3dp"
+            />
+
+        <ImageButton
+            android:id="@+id/analyzeBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            app:cornerRadius="40dp"
+            android:elevation="3dp"
+            app:srcCompat="@drawable/btn1" />
+
+        <ImageButton
+            android:id="@+id/sketchBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:elevation="3dp"
+            app:srcCompat="@drawable/btn3" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"
+        android:text="Your Saved Sketches"
+        android:textColor="@color/ls_textdark"
+        android:textSize="12pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout_getStarted" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentsketchRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_recent"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

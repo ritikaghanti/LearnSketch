@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ls_background_light">
+
+    <TextView
+        android:id="@+id/tv_ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins"
+        android:text="Save Sketch"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/edit_sketchtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter Sketch Title"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ss" />
+
+    <ImageView
+        android:id="@+id/iv_previewSketch"
+        android:layout_width="838dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="424dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btn_saveimage"
+        android:layout_width="202dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="36dp"
+        android:text="Save To Phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/btn_resumesketch"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/ls_red"
+        android:text="Resume Sketching"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_saveimage" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="@color/ls_textdark"
+        android:text="Go To Home"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="202dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="60dp"
+        android:text="SHARE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_sketchtitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

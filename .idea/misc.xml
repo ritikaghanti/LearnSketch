@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/buttons_rounded_wide.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/gallery_svgrepo_com.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/ic_icon_logout.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/ic_start_illustration.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/drawable/ic_start_ls_logo.xml" value="0.2235" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/font/poppins.xml" value="0.2765625" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/activity_homescreen.xml" value="0.176" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/anlyzesketch.xml" value="0.2" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/learning.xml" value="0.25" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/savesketch.xml" value="0.264" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/signin.xml" value="0.5" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/signup.xml" value="0.2" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/sketching_canvas.xml" value="0.25" />
+        <entry key="..\:/LearnSketchAndroid/app/src/main/res/layout/videoscreen.xml" value="0.18125" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/buttons_rounded_wide.xml" value="0.281" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/canvas_toolbar.xml" value="0.213" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/drop_shadow.xml" value="0.2975" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/ic_analyze.xml" value="0.3725" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/ic_logout.xml" value="0.3115" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/ic_save.xml" value="0.3205" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/drawable/shadow.xml" value="0.3205" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/font/poppins.xml" value="0.4010416666666667" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/activity_canvas_main.xml" value="0.1" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/activity_homescreen.xml" value="0.2" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/anlyzesketch.xml" value="0.1859375" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/canvas_main.xml" value="0.17356475300400534" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/canvas_paint_view.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/canvas_paintstroke.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/canvas_selectcolor.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/fragment_startscreen.xml" value="0.1859375" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/savesketch.xml" value="0.1859375" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/sigview.xml" value="0.1" />
+        <entry key="..\:/Users/saisa/AndroidStudioProjects/LearnSketch/app/src/main/res/layout/sketching_canvas.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
